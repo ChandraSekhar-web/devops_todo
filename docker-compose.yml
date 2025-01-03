@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   todo-app:
-    image: your-dockerhub-username/todo-app:latest
+    image: chandrasekhar21/todo-app:latest
     ports:
       - "3000:3000"
     environment:
