@@ -40,6 +40,6 @@
   },
   "scripts": {
   "start": "node server.js",
-  "build": "react-scripts build"
+  "build": "node:18"
   }
 }
