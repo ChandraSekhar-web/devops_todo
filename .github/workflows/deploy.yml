@@ -21,8 +21,8 @@ jobs:
 
     - name: Build and Push Docker Image
       run: |
-        docker build -t your-dockerhub-username/todo-app:latest .
-        docker push your-dockerhub-username/todo-app:latest
+        docker build -t chandrasekhar21/todo-app:latest .
+        docker push chandrasekhar21/todo-app:latest
 
     - name: Deploy using SSH
       uses: appleboy/ssh-action@v0.1.4
